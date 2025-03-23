@@ -1,5 +1,4 @@
 #!/usr/bin/with-contenv bash
 
 echo "**** installing python3 dev environment ****"
-apt-get update && apt-get install -y \
-  python3
+apk add --no-cache python3
